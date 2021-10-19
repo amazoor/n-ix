@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  border: 1px solid #8f8f8f;
+  margin: 1px;
+  padding: 10px;
+  background-color: #faefdc;
+  transition: background-color .4s;
+}
+
+.item.filled {
+  background-color: #2a2a2a;
+}
